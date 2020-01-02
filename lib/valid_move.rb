@@ -1,12 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-    if index<=8
-      if board[index]= "X" || "O"
-        return false
-      elsif board[index]= " " || ""
-        return true
-      end
-    elsif index>8
+    if index<=8 && board[index]= " " || ""
+      return true
+    elsif index>8 && board[index]= "X" || "O"
       return false
     end
 end
