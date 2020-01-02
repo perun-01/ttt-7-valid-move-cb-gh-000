@@ -4,7 +4,7 @@ def valid_move?(board, index)
       return "index is not in board"
     else
       return "index is not in board"
-
+end
 end
 
 
