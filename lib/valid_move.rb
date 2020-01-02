@@ -1,8 +1,9 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-    if position_taken?(board,index)
+    if position_taken?
       return "index is not in board"
-    els
+    else
+      return "index is not in board"
 
 end
 
