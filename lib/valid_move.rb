@@ -5,8 +5,6 @@ def valid_move?(board, index)
         return true
       elsif board[index]= " " || ""
         return false
-
-
       end
     elsif index>8
       return false
