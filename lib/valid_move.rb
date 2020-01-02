@@ -4,7 +4,7 @@ def valid_move?(board, index)
       return true
     elsif index>8
       return false
-end
+    end
 end
 
 
