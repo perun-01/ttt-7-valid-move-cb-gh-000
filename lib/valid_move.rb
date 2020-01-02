@@ -3,7 +3,7 @@ def valid_move?(board, index)
     if position_taken?(board,index)
       return "index is not in board"
     els
-      
+
 end
 
 
